@@ -40,7 +40,70 @@
 }
 
 .about {
-    border-style: solid;
+    border-style: solid transparent;
     margin-top: 1px;
-    padding: 100px;
+    margin-left: -9px;
+    margin-right: -8px;
+    height: 500px;
+    display: flex;
+}
+
+.company-about {
+    border: solid transparent;
+    margin-left: 250px;
+    overflow: hidden;
+
+}
+
+.welcome-about {
+    font-family: 'space mono';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #F9FAF8;
+    border: solid transparent;
+    margin-top: 100px;
+    margin-right: 99px;
+    margin-bottom: 30px;
+}
+
+.startup-about {
+    font-family: 'space mono';
+    font-size: 18px;
+    color: #e5e7eb;
+    border: solid transparent;
+    margin-right: 19px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+
+.button-about {
+    font-family: 'space mono';
+    font-weight: 700;
+    color: #f9faf8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    height: fit-content;
+    width: fit-content;
+    font-size: 24px;
+    border: solid transparent;
+    margin-bottom: 99px;
+}
+
+.button-link {
+    color: #f9faf8;
+}
+
+.office-image {
+
+    height: 300px;
+    width: 600px;
+    border: solid;
+    color: white;
+    object-fit: cover;
+    margin-top: 100px;
+    align-content: flex-end;
+    border-radius: 15px;
+    margin-right: 10em;
 }
