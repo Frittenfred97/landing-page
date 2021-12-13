@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .page {
     background-color: #1f2937;
@@ -7,7 +7,6 @@
 .header {
     border-style: solid transparent;
     display: flex;
-    
 }
 
 .header-titel {
@@ -52,7 +51,6 @@
     border: solid transparent;
     margin-left: 250px;
     overflow: hidden;
-
 }
 
 .welcome-about {
@@ -96,7 +94,6 @@
 }
 
 .office-image {
-
     height: 300px;
     width: 600px;
     border: solid invisible;
@@ -132,7 +129,7 @@
     max-width: 100%;
     max-height: 100%;
     border: solid #3882F6;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 .team-ceo,
@@ -151,3 +148,28 @@
     margin-top: 10px;
 }
 
+.quotes {
+    background-color: #e5e7eb;
+    margin-top: -37px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+}
+
+.quote-text {
+    font-family: 'space mono';
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding-top: 75px ;
+}
+
+.quote-autor {
+    font-family: 'space mono';
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    padding-bottom: 75px;
+    margin-top: -25px;
+    margin-left: 500px;
+}
