@@ -16,7 +16,7 @@
     font-weight: 700;
     color: #f9faf8;
     margin-left: 10em;
-    margin-right: 25em;
+    margin-right: 22em;
     align-items: center;
     border-style: solid transparent;
 }
@@ -32,11 +32,11 @@
     margin-top: auto;
     margin-bottom: auto;
     border-style: solid transparent;
-    margin-left: auto;
+    margin-left: 30px;
 }
 
 .header-impressum {
-    margin-right: 10em;
+    margin-right: 9.5em;
 }
 
 .about {
@@ -69,7 +69,7 @@
 
 .startup-about {
     font-family: 'space mono';
-    font-size: 18px;
+    font-size: 17px;
     color: #e5e7eb;
     border: solid transparent;
     margin-right: 19px;
@@ -99,7 +99,7 @@
 
     height: 300px;
     width: 600px;
-    border: solid;
+    border: solid invisible;
     color: white;
     object-fit: cover;
     margin-top: 100px;
@@ -107,3 +107,47 @@
     border-radius: 15px;
     margin-right: 10em;
 }
+
+.team {
+    background-color: #f9faf8;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 550px;
+}
+
+.team-title {
+    font-family: 'space mono';
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+
+.team-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.dog-images {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid #3882F6;
+    border-radius: 3px;
+}
+
+.team-ceo,
+.team-cfo,
+.team-coo,
+.team-cto {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.team-pictures p {
+    font-family: 'space mono';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
