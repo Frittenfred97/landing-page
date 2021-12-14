@@ -173,3 +173,69 @@
     margin-top: -25px;
     margin-left: 500px;
 }
+
+.action {
+    background-color: #f9faf8;;
+    margin-top: -37px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-field {
+    background-color: #3882F6 ;
+    border-radius: 15px;
+    display: flex;
+    inline-size: auto;
+    align-items: center;
+}
+
+.field {
+    font-family: 'space mono';
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.field-main {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+
+.field-text {
+    font-size: 18px;
+}
+
+.field-button {
+    font-family: 'space mono';
+    font-size: 18px;
+    font-weight: 700;
+    border: solid white;
+    background-color: #3882f6;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.field-link {
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-love {
+    font-family: 'space mono';
+    font-size: 18px;
+    color: white;
+}
